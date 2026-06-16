@@ -11,11 +11,9 @@ public class AlterCheck {
             int alter = Integer.parseInt(input);
 
             if (alter >= 18) {
-                System.out.println("volljährig.");
+                JOptionPane.showMessageDialog(null, "volljährig.");
             } else {
-                System.out.println("minderjährig.");
-
+                JOptionPane.showMessageDialog(null, "minderjährig.");
             }
-    
      }
 }
